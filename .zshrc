@@ -74,6 +74,9 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 
+# autojump config
+# OS X install: brew install autojump
+# Ubuntu install: sudo apt-get install autojump
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 
 [ -s "/Users/glow/.nvm/nvm.sh" ] && . "/Users/glow/.nvm/nvm.sh" # This loads nvm
