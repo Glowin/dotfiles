@@ -83,4 +83,6 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 [ -s "/Users/glow/.nvm/nvm.sh" ] && . "/Users/glow/.nvm/nvm.sh" # This loads nvm
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# set vim to default editor
 export EDITOR=/usr/bin/vim
