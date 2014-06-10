@@ -75,6 +75,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 
 # autojump config
+# detail description in project page: https://github.com/joelthelion/autojump
 # OS X install: brew install autojump
 # Ubuntu install: sudo apt-get install autojump
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
