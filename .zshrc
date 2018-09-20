@@ -48,7 +48,7 @@ ZSH_THEME="simple"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate lighthouse)
-plugins=(git autojump ruby osx gradle)
+plugins=(git autojump osx)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -80,7 +80,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # Ubuntu install: sudo apt-get install autojump
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 
-[ -s "/Users/glow/.nvm/nvm.sh" ] && . "/Users/glow/.nvm/nvm.sh" # This loads nvm
+[ -s "$PATH:$HOME/.nvm/nvm.sh" ] && . "$PATH:$HOME/.nvm/nvm.sh" # This loads nvm
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
