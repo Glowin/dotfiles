@@ -48,7 +48,7 @@ ZSH_THEME="simple"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate lighthouse)
-plugins=(git autojump ruby osx gradle)
+plugins=(git autojump osx)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -86,3 +86,13 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # set vim to default editor
 export EDITOR=/usr/bin/vim
+
+# for golang
+# # mkdir $HOME/go
+# # mkdir -p $GOPATH/src/github.com/user
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export ANDROID_HOME=$HOME/projects/android/android-sdk-macosx
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools/22.0.1
+export PATH=$PATH:$HOME/projects/android/toolchain
+export CC=arm-linux-androideabi-gcc
