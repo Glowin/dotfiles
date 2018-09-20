@@ -59,7 +59,7 @@ case `uname` in
     export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
   ;;
   Linux)
-    export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/.local/bin"
+    export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/home/glow/.local/bin"
   ;;
 esac
 
